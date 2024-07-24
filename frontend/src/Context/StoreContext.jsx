@@ -12,7 +12,7 @@ function StoreContextProvider({children}) {
   const [productList, setProductList] = useState([]);
   const [adminStatus, setAdminStatus] = useState(false);
 
-  const url = "http://localhost:4000";
+  const url = "https://ecommerce-app-backend-elx0.onrender.com";
 
 
   function getCartTotal() {
