@@ -1,0 +1,24 @@
+.featured-products{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.featured-products .product-title{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.product-title h1{
+  font-size: 50px;
+  font-weight: 600;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.featured-products .products{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}

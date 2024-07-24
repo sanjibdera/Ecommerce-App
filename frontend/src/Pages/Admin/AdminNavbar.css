@@ -1,0 +1,30 @@
+.admin-navbar{
+  text-align: center;
+  height: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 30px;
+  font-size: 18px;
+}
+
+
+.nav-logo p{
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.nav-menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+
+.nav-menu .btn{
+  border-bottom: 2px solid whitesmoke;
+  padding: 10px 15px;
+  font-size: 20px;
+}

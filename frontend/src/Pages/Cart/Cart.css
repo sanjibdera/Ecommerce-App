@@ -1,0 +1,131 @@
+.cart{
+  margin-bottom: 100px;
+}
+
+.cart .header{
+  margin-top: 40px;
+  margin-bottom: 100px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.cart .header h1{
+  font-size: 45px;
+}
+
+.cart-top{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.cart-titles{
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  color: rgb(54, 51, 51);
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.cart-bottom{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+}
+
+.cart-total{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  gap: 20px;
+  font-size: 1.8vw;
+}
+
+.cart-total h2{
+  color: rgb(59, 59, 60);
+  font-size: 2vw;
+  font-weight: 600;
+}
+
+.details{
+  display: flex;
+  justify-content: space-between;
+  color: rgb(42, 44, 44);
+}
+
+.cart-total hr{
+  margin: 10px 0px;
+}
+
+.cart-total button{
+  border: none;
+  color: aliceblue;
+  background-color: rgb(220, 87, 64);
+  width: 170px;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.promocode{
+  flex: 1;
+  margin-right: 100px;
+}
+
+.promocode p{
+  font-size: 1.6vw;
+  color: #474343;
+}
+
+.promocode-input{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(214, 215, 216);
+  border-radius: 5px;
+}
+
+.promocode-input input{
+  background: transparent;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+
+.promocode-input button{
+  width: 10vw;
+  padding: 12px 5px;
+  background-color: black;
+  border: none;
+  color: aliceblue;
+  border-radius: 5px;
+}
+
+@media (max-width:750px) {
+  .cart-bottom{
+  margin-top: 80px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 150px;
+  }
+
+  .cart-total{
+    flex: none;
+    width: 400px;
+  }
+
+  .promocode{
+    flex: none;
+    width: 400px;
+  }
+}

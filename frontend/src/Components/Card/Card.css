@@ -1,0 +1,58 @@
+.card{
+  width: 280px;
+  background-color: #eae5e5;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card img{
+  width: 100%;
+}
+
+.card p{
+  margin: 6px 10px;
+}
+
+.card-price{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.card-price .add-btn{
+  font-size: 25px;
+  height: 28px;
+  width: 28px;
+  padding: 0px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  color: whitesmoke;
+  cursor: pointer;
+  margin-left: 80px;
+}
+
+.new-price{
+  color: black;
+  font-size: 20px;
+}
+
+.old-price{
+  color: gray;
+  font-size: 18px;
+  text-decoration: line-through;
+}
+
+.card-status{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.product-stock{
+  color: green;
+}

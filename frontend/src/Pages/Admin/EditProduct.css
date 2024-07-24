@@ -1,0 +1,49 @@
+.edit-product{
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-product form{
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border: 2px solid whitesmoke;
+  padding: 35px;
+}
+
+.edit-product input{
+  height: 3.5rem;
+  font-size: 18px;
+  padding-inline: 10px;
+}
+
+.edit-product .loadind{
+  position: absolute;
+  padding: 20px 137px;
+  background-color: #6a66667a;
+}
+
+.edit-product .loadind p{
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.category p{
+  margin-bottom: 20px;
+}
+
+button{
+  height: 45px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+select{
+  font-size: 18px;
+  padding: 8px;
+}

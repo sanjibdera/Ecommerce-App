@@ -1,0 +1,53 @@
+.all-product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header{
+  margin-top: 40px;
+  margin-bottom: 60px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.product-container{
+  width: 90%;
+}
+
+
+.product{
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  color: rgb(62, 59, 59);
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.product-img{
+  width: 160px;
+  border-radius: 10px;
+}
+
+.product .original-price{
+  text-decoration: line-through;
+}
+
+.product .edit-btn{
+  font-size: 26px;
+  padding: 10px;
+  outline: none;
+  color: green;
+  cursor: pointer;
+}
+
+.product .delete-btn{
+  font-size: 26px;
+  padding: 10px;
+  outline: none;
+  color: red;
+  cursor: pointer;
+}
